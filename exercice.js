@@ -17,8 +17,23 @@ export function premierDimanche() {
 
 // Exo 3
 
-export function array() {}
+export function fibonnacci(array) {
+  let n1 = 0;
+  let n2 = 1;
+  let somme = 0;
+
+  for (let i = 2; i <= array; i++) {
+    somme = n1 + n2; //Somme des nombres
+    n1 = n2;
+    n2 = somme;
+  }
+  return array ? n2 : n1;
+}
 
 // Exo 4
 
-export function ceasar() {}
+export function ceasar(mot) {
+    let array = [];
+
+}
+    

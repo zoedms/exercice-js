@@ -1,6 +1,7 @@
 import { AirCircle } from "./exercice.js";
 import { premierDimanche } from "./exercice.js";
-import { array } from "./exercice.js";
+import { fibonnacci } from "./exercice.js";
+import { ceasar } from "./exercice.js"
 
 // Exo 1
 
@@ -12,4 +13,8 @@ premierDimanche();
 
 // Exo 3
 
-array(10);
+console.log(fibonnacci(15));
+
+// Exo 4
+
+console.log(ceasar("COUCOU", 10));
